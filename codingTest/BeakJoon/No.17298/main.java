@@ -2,7 +2,6 @@ import java.util.*;
 
 public class main
 {
-    // tip: arguments are passed via the field below this editor
     public static void main(String[] args)
     {
         int[] arr = {5,4,2,1,3};

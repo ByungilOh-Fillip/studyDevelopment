@@ -3,7 +3,6 @@ import java.lang.Math;
 
 public class main
 {
-    // tip: arguments are passed via the field below this editor
     public static void main(String[] args)
     {
         int[] arr = {1,-1,0,0,0,1,1,-1,-1,2,-2,0,0,0,0,0,0,0};
