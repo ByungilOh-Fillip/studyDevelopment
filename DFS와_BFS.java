@@ -4,48 +4,79 @@ import java.util.*;
 import java.io.*;
 
 public class DFS와_BFS {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    static StringBuilder sb = new StringBuilder();
+	static boolean[] check;
+	static int[][] mapArr;
+	
+	static int node, line, start;
+	
+	static Queue<Integer> q = new LinkedList<>();
 
-        Stack<Character> dfsStack = new Stack<>();
-        Queue<Character> bfsQueue = new LinkedList<>();
+	public static void main(String[] args) throws IOException {
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		node = Integer.parseInt(st.nextToken());
+		line = Integer.parseInt(st.nextToken());
+		start= Integer.parseInt(st.nextToken());
+		
+		mapArr = new int[node+1][node+1];
+		check = new boolean[node+1];
+		
 
-        String[] inputArr = br.readLine().split(" ");
-        int nodeLen = Integer.parseInt(inputArr[0]); // 노드갯수
-        int xfsLen = Integer.parseInt(inputArr[1]); // 간선갯수
-        char startNode = inputArr[2].charAt(0); // 시작노드
-
-        List<String> graph = new ArrayList<>(); // 그래프 데이터
-        char[][] answer = new char[2][xfsLen]; // 결과 출력
-
-
-        //데이터 초기화
-        dfsStack.push(startNode);
-        bfsQueue.add(startNode); 
+		for(int i = 0 ; i < line ; i ++) {
+			StringTokenizer str = new StringTokenizer(br.readLine());
+			
+			int a = Integer.parseInt(str.nextToken());
+			int b = Integer.parseInt(str.nextToken());
+			
+			mapArr[a][b] = mapArr[b][a] =  1;	
+		}
 
 
-        for(int i=0; i<nodeLen;i++){
-            String node = br.readLine();
+        //sb.append("\n");
+        dfs(start);
+        sb.append("\n");
+        check = new boolean[node+1];
 
-            if(startNode==node.charAt(0)){
-                dfsStack.push(node.charAt(2));
-                bfsQueue.add(node.charAt(2));
-                continue;
-            }
-
-            if(startNode==node.charAt(2)){
-                dfsStack.push(node.charAt(0));
-                bfsQueue.add(node.charAt(0));
-                continue;
-            }
-
-            graph.add(node.charAt(0)+""+node.charAt(2));
-        } // 데이터 정리 
-
-        // startNode 제거
-        answer[0][0] = dfsStack.pop();
-        answer[1][0] = bfsQueue.remove();
-
+        bfs(start);
         
+        System.out.println(sb);
+    
     }
+
+	public static void dfs(int start) {
+		
+		check[start] = true;
+		sb.append(start + " ");
+		
+		for(int i = 1 ; i <= node ; i++) {
+			if(mapArr[start][i] == 1 && !check[i])
+				dfs(i);
+		}
+		
+	}
+	
+	public static void bfs(int start) {
+
+		q.add(start);
+		check[start] = true;
+		
+		while(!q.isEmpty()) {
+			
+			start = q.poll();
+			sb.append(start + " ");
+			
+			for(int i = 1 ; i <= node ; i++) {
+				if(mapArr[start][i] == 1 && !check[i]) {
+					q.add(i);
+					check[i] = true;
+				}
+			}
+		}
+		
+
+	}
+
 }
