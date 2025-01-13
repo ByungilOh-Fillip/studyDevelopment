@@ -1,13 +1,12 @@
-
 <img src = "/img/BeakJoon/백준.png" width=1000px alt="백준_qorwns_Beakjoon"></img>
-백준 11286번 문제 : https://www.acmicpc.net/problem/11286
+백준 1260번 문제 : https://www.acmicpc.net/problem/1260 
 
-<meta name="keywords" content="코딩테스트, 스택, 정렬, 오큰수">
-<meta name=“description” content = “백준 11286번 문제”>
+<meta name="keywords" content="코딩테스트, DFS, BFS, 그래프, 깊이탐색, 너비탐색">
+<meta name=“description” content = “백준 1260번 문제”>
 
 </br></br>
 
-백준 11286문제 해설
+백준 1260문제 해설
 =============
 </br>
 
