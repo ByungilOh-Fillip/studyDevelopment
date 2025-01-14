@@ -1,13 +1,13 @@
 
 <img src = "/img/BeakJoon/백준.png" width=1000px alt="백준_qorwns_Beakjoon"></img>
-백준 1874번 문제 : https://www.acmicpc.net/problem/17298
+백준 11286번 문제 : https://www.acmicpc.net/problem/11286
 
 <meta name="keywords" content="코딩테스트, 스택, 정렬, 오큰수">
-<meta name=“description” content = “백준 17298번 문제”>
+<meta name=“description” content = “백준 11286번 문제”>
 
 </br></br>
 
-백준 17298문제 해설
+백준 11286문제 해설
 =============
 </br>
 
