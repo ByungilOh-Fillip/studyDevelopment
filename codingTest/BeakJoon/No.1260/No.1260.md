@@ -46,15 +46,15 @@ BFS는 **너비 우선 탐색(Breadth2-First Search)** 이라고 하며 DFS와 �
 
 ### 예제 1번.
 1. 배열 list 정의 (초기화)
-<img src = "/img/BeakJoon/No.1260/1260_example01.png" width=800px alt="list"></img>
+<br><img src = "/img/BeakJoon/No.1260/1260_example01.png" width=800px alt="list"></img>
 <br>
 2. 시작노드를 인덱스로 검색하며 지난 노드를 체크하는 배열에 함수 체크
 <br>
     **DFS의 경우**
-    <img src = "/img/BeakJoon/No.1260/example01_DFS.png" width=800px alt="list"></img>
+    <br><img src = "/img/BeakJoon/No.1260/example01_DFS.png" width=800px alt="list"></img>
 <br>
     **BFS의 경우**
-     <img src = "/img/BeakJoon/No.1260/example01_BFS.png" width=800px alt="list"></img>
+     <br><img src = "/img/BeakJoon/No.1260/example01_BFS.png" width=800px alt="list"></img>
 <br>
 3. check 값이 false 이면서 현재 가르키는 인덱스에 해당하는 값이 list의 1이면
 <br>
@@ -69,15 +69,15 @@ BFS는 **너비 우선 탐색(Breadth2-First Search)** 이라고 하며 DFS와 �
 
 ### 예제 2번.
 1. 배열 list 정의 (초기화)
-<img src = "/img/BeakJoon/No.1260/1260_example02.png" width=800px alt="list"></img>
+<br><img src = "/img/BeakJoon/No.1260/1260_example02.png" width=800px alt="list"></img>
 <br>
 2. 시작노드를 인덱스로 검색하며 지난 노드를 체크하는 배열에 함수 체크
 <br>
     **DFS의 경우**
-    <img src = "/img/BeakJoon/No.1260/example02_DFS.png" width=800px alt="list"></img>
+    <br><img src = "/img/BeakJoon/No.1260/example02_DFS.png" width=800px alt="list"></img>
 <br>
     **BFS의 경우**
-     <img src = "/img/BeakJoon/No.1260/example02_BFS.png" width=800px alt="list"></img>
+     <br><img src = "/img/BeakJoon/No.1260/example02_BFS.png" width=800px alt="list"></img>
 <br>
 3. check 값이 false 이면서 현재 가르키는 인덱스에 해당하는 값이 list의 1이면
 <br>
@@ -93,7 +93,7 @@ BFS는 **너비 우선 탐색(Breadth2-First Search)** 이라고 하며 DFS와 �
 
 ### 알고리즘
 #### 1. 포인터의 자료를 list로 정의하여 문제풀기.
-<img src = "/img/BeakJoon/No.1260/1260_example01.png" width=800px alt="list"></img>
+<br><img src = "/img/BeakJoon/No.1260/1260_example01.png" width=800px alt="list"></img>
 
 위 그림은 주어진 포인터 배열을 리스트에 담은 것이다.
 예제 1번 데이터를 기준으로 담은 것이고 list로 담는 규칙은 
