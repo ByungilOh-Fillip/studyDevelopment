@@ -61,7 +61,7 @@ DFS는 깊이를 우선해서 탐색하는 트리탐색 방법 중 하나이다.
 
 <img src = "/img/BeakJoon/No.11724/List_cycle3.png" width=1000px alt="연결된 그룹의 수"></img>
 <img src = "/img/BeakJoon/No.11724/List_cycle4.png" width=1000px alt="연결된 그룹의 수"></img>
-3.계속 반복하다 모든 노드를 확인하지 않았는데 stack은 빈 상태가 된다면 ```isVisited==false```라면 데이터를 집어넣는다 
+3.계속 반복하다 모든 노드를 확인하지 않았는데 stack은 빈 상태가 이고 남은 노드가 ```isVisited==false```라면 데이터를 집어넣는다 
 <img src = "/img/BeakJoon/No.11724/List_cycle5.png" width=1000px alt="연결된 그룹의 수"></img>
 4. 1번부터 순차적으로 다시 실행한다.
 <img src = "/img/BeakJoon/No.11724/List_cycle6.png" width=1000px alt="연결된 그룹의 수"></img>
