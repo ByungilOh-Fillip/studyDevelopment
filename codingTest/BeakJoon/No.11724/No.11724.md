@@ -29,7 +29,7 @@
 여기서 연결요소는 서로 연결되어있는 그룹이 몇개인지 물어보는 것이다. 
 
 위 문제의 1번에 해당하는 연결요소는 다음 그림과 같다. 
-<img src = "/img/BeakJoon/No.11724/example No.11724.png" width=1000px alt="연결된 그룹의 수"></img>
+<img src = "/img/BeakJoon/No.11724/example No.11724.png" width=500px alt="연결된 그룹의 수"></img>
 
 연결된 요소가 다음과 같기 때문에 결과는 2가 나와야한다. 
 
