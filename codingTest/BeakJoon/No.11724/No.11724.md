@@ -33,7 +33,7 @@
 <img src = "/img/BeakJoon/No.11724/example No.11724.png" width=500px alt="연결된 그룹의 수"></img>
 </br></br>
 
-연결된 요소가 다음과 같기 때문에 결과는 2가 나와야한다. 
+그림을 통해 연결된 요소수가 2개임을 알 수 있다.
 
 ### DFS Stack 
 이번 문제는 DFS 혹은 BFS로 풀어낼 수 있는 문제다.
