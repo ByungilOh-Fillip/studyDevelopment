@@ -53,6 +53,7 @@ DFS는 깊이를 우선해서 탐색하는 트리탐색 방법 중 하나이다.
 <img src = "/img/BeakJoon/No.11724/List_No.11724.png" width=1000px alt="연결된 그룹의 수"></img>
 
 위 그림의 표로 나타낸 데이터들을 순차적으로 코드 사이클을 설명하면
+</br>
 1.시작 노드의 **연결 노드**를 stack에 최근 노드 하나를 빼고 집어넣는다.
 
 <img src = "/img/BeakJoon/No.11724/List_cycle2.png" width=1000px alt="연결된 그룹의 수"></img>
