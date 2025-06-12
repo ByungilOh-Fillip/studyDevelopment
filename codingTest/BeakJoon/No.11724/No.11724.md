@@ -1,6 +1,6 @@
 
 <img src = "/img/BeakJoon/백준.png" width=1000px alt="백준_qorwns_Beakjoon"></img>
-백준 11286번 문제 : https://www.acmicpc.net/problem/11724
+백준 11724번 문제 : https://www.acmicpc.net/problem/11724
 
 <meta name="keywords" content="코딩테스트">
 <meta name=“description” content = “백준 11724번 문제”>
